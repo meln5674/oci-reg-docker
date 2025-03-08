@@ -9,6 +9,8 @@ In other words, this tool turns your Docker Daemon into a Docker Registry.
 Currently, this tool only supports read operations on already pulled images. Fetching images
 from other registries and pushing new images are not yet supported.
 
+![diagram](docs/diagram.svg)
+
 ## Why
 
 This tool is primarily intended for use in testing scenarios to avoid re-pulling images 
